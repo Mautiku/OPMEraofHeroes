@@ -1,0 +1,140 @@
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+local Us = game:GetService("UserInputService")
+
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.G then
+       game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Saitama"):WaitForChild("Skills"):WaitForChild("Awakening"):WaitForChild("SeriousMode"):FireServer()
+
+      end
+    end
+end)
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.G then
+       game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Awakening"):WaitForChild("MonstrousWill"):FireServer()
+
+      end
+    end
+end)
+
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.Four then
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Saitama"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("DeathPunch"):FireServer()
+
+      end
+    end
+end)
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.Four then
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Awakening"):WaitForChild("EnragedHunt"):FireServer()
+
+      end
+    end
+end)
+
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.G then
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Genos"):WaitForChild("Skills"):WaitForChild("Awakening"):WaitForChild("FullPowerOverdrive"):FireServer()
+
+      end
+    end
+end)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+local Us = game:GetService("UserInputService")
+
+Us.InputBegan:Connect(function(input)
+ if input.UserInputType == Enum.UserInputType.Keyboard then
+   if input.KeyCode == Enum.KeyCode.V then
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Activate"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+
+local args = {
+    [1] = "Afterimage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Afterimage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Afterimage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Attack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Afterimage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Deactivate"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Characters"):WaitForChild("Garou"):WaitForChild("Skills"):WaitForChild("Base"):WaitForChild("CrushedRock"):FireServer(unpack(args))
+
+      end
+    end
+end)
